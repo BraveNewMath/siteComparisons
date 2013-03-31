@@ -1,0 +1,25 @@
+﻿.auto-style1 {
+            width: 104px;
+            height: 81px;
+        }
+.comparisonTable {
+    
+}
+        .comparisonTable tbody tr:hover {
+            background-color:yellow !important;
+        }
+        .auto-style2 {
+            width: 32px;
+            height: 32px;
+        }
+        .comparisonTable tbody tr.even {
+            background-color:whitesmoke
+        }
+        .comparisonTable tbody tr.odd {
+    background-color: #E3ECFD;
+}
+        .comparisonTable td {
+    border-right-style: solid;
+    border-right-width: medium;
+    border-right-color: #808000;
+}

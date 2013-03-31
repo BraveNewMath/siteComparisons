@@ -9,6 +9,9 @@ var c = {
         alternatingTbleRowstyles: function () {
             $('.comparisonTable tr:even').addClass('even');
             $('.comparisonTable tr:odd').addClass('odd');
+
+            //add a style to a specific column
+            //$('table th:nth-child(2), table td:nth-child(2)').addClass('comparison');
         },
         setupAudioEffectsForHyperlinks:function(){
             
