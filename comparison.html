@@ -7,47 +7,71 @@
             width: 104px;
             height: 81px;
         }
+        .comparisonTable tbody tr:hover {
+            background-color:yellow !important;
+        }
+        .auto-style2 {
+            width: 32px;
+            height: 32px;
+        }
+        .comparisonTable tbody tr.even {
+            background-color:azure
+        }
+        .comparisonTable tbody tr.odd {
+            background-color:AppWorkspace
+        }
+        .comparisonTable td {
+
+        }
     </style>
 </head>
 <body>
 
-    <table style="width:100%;">
+    <table style="width:100%;" class="comparisonTable">
         <tr>
             <td>&nbsp;</td>
-            <td>yessera.org</td>
+            <td><a href="http://yessera.org" target="_blank">yessera.org</a></td>
             <td>wegene.org</td>
             <td>ppl-inc.org</td> 
         </tr>
         <tr>
             <td>
-                Site Logo</td>
+                Site Logo </td>
             <td>
-                <a href="http://yessera.org" title="Go to Yessera.org"><img alt="YESSERA" border="0" class="auto-style1" src="https://raw.github.com/BraveNewMath/siteComparisons/master/images/yessera.PNG" /></a></td>
+                <a href="http://yessera.org" title="Go to Yessera.org"><img alt="YESSERA" border="0" class="auto-style1" src="https://rawgithub.com/BraveNewMath/siteComparisons/master/images/yessera.PNG" /></a></td>
             <td>
                 <a href="http://wegene.org/" title="Go to wegene.org">
                 <img alt="" src="http://wegene.org/img/logo.gif" style="border-width: 0px" /></a></td>
             <td>
                 <a href="http://www.ppl-inc.org" title="Go to ppl-ing.org">
-                <img alt="" src="https://raw.github.com/BraveNewMath/siteComparisons/master/images/pplLogoSmall.png" style="border-width: 0px" /></a></td>
+                <img alt="" src="https://rawgithub.com/BraveNewMath/siteComparisons/master/images/pplLogoSmall.png" style="border-width: 0px" /></a></td>
         </tr>
         <tr id="overviewRow">
-            <td>Overview</td>
-            <td class="overview-yessera">
-                click to view...
+            <td>
+                <h2>Overview</h2>
             </td>
-            <td class="overview-wegene">click to view...</td>
-            <td class="overview-ppl">click to view...</td>
+            <td class="overview-yessera">
+                <a href="#">view...
+            </a>
+            </td>
+            <td class="overview-wegene"><a href="#">view...</a></td>
+            <td class="overview-ppl"><a href="#">view...</a></td>
         </tr>
         <tr>
             <td>
-                Ease of use</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+                <h2>Ease of use</h2>
+            </td>
+            <td>
+                <img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-half.png" /><img alt="" class="auto-style2" src="images/star-0.png" /></td>
+            <td>
+                <img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-0.png" /></td>
+            <td>
+                <img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-half.png" /></td>
         </tr>
         <tr>
             <td>
-                Completeness of topic coverage</td>
+                <h2>Completeness of topic coverage</h2>
+            </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -55,6 +79,35 @@
         <tr>
             <td>
                 &nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Use of web enhancements</h2>
+            </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                Graphics</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                Sound</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                Video</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -96,5 +149,7 @@
         Facebook likes
 
     </div>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/comparison.js"></script>
 </body>
 </html>
