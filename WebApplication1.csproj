@@ -55,11 +55,18 @@
   <ItemGroup>
     <Content Include="comparison.html" />
     <Content Include="Default.aspx" />
+    <Content Include="images\checkmark-x.gif" />
+    <Content Include="images\checkMark.gif" />
+    <Content Include="images\checkmark2-48x48.png" />
+    <Content Include="images\imgres.jpg" />
+    <Content Include="images\no.png" />
+    <Content Include="images\partial.png" />
     <Content Include="images\pplLogo.png" />
     <Content Include="images\pplLogoSmall.png" />
     <Content Include="images\star-0.png" />
     <Content Include="images\star-1.png" />
     <Content Include="images\star-half.png" />
+    <Content Include="images\yes.png" />
     <Content Include="images\yessera.PNG" />
     <Content Include="Scripts\comparison.js" />
     <Content Include="packages.config" />
