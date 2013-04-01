@@ -2,8 +2,12 @@
             width: 104px;
             height: 81px;
         }
-.comparisonTable {
-    
+
+table tr {
+    vertical-align:top;
+}
+.comparisonTable tr.clickableRow:hover{
+    cursor:pointer; cursor: hand;
 }
         .comparisonTable tbody tr:hover {
             background-color:yellow !important;
