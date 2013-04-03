@@ -20,6 +20,21 @@ var c = {
             //$('table th:nth-child(2), table td:nth-child(2)').addClass('comparison');
         },
         wireupComparisonRowClicks: function () {
+            var showCollapseButton = function (show) {
+                if (show) {
+                    $('.comparisonTable tr td div').show();
+                    $('#btnCollapseToSummaries').show();
+                    $('#btnExpandSummaries').hide();
+                } else {
+                    $('.comparisonTable tr td div').hide();
+                    $('#btnCollapseToSummaries').hide();
+                    $('#btnExpandSummaries').show();
+                }
+            }
+
+            $('#btnCollapseToSummaries').click(function () { showCollapseButton(false); });
+            $('#btnExpandSummaries').click(function () { showCollapseButton(true); });
+
             $('.comparisonTable tr[contentdiv]').click(function (e) {
 
                 //assign title header using h3 tag, and if not present, use the title attibute of the div
@@ -27,19 +42,15 @@ var c = {
                 if (!mytitle)
                     mytitle = $('#' + $(this).attr('contentdiv')).attr('title');
                 
+                $(this).find('td div').slideToggle('slow');
+
                 //show dialog  message
-                $('#' + $(this).attr('contentdiv')).dialog({
-                    title: mytitle,
-                    modal:true,
-                    width: 600,
-                    open: function (event, ui) {
-                        //alert('dialog is opened!');
-                        //debugger;
-                        //if ($(this).width() > 600) {
-                        //    $(this).width(600);
-                        //}
-                    }
-                });
+                //$('#' + $(this).attr('contentdiv')).dialog({
+                //    title: mytitle,
+                //    modal:true,
+                //    width: 600,
+                //    open: function (event, ui) {}
+                //});
             }).addClass('clickableRow');
         },
         setupAudioEffectsForHyperlinks:function(){

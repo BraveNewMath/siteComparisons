@@ -6,6 +6,16 @@
 table tr {
     vertical-align:top;
 }
+
+table td {
+width:25%
+}
+
+    table tr td div {
+    text-align: left;
+    padding-right: 3px;
+    padding-left: 3px;
+}
 .comparisonTable tr.clickableRow:hover{
     cursor:pointer; cursor: hand;
 }

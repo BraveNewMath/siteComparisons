@@ -14,15 +14,26 @@
         .auto-style7 {
             width: 100%;
         }
+        .auto-style8 {
+            width: 149px;
+            height: 127px;
+        }
+        .auto-style9 {
+            width: 255px;
+            height: 115px;
+        }
     </style>
     <link href="Content/themes/base/jquery.ui.all.css" rel="stylesheet" />
 </head>
 <body>
-
+    <button id="btnCollapseToSummaries">Collapse all to summaries</button>
+    <button id="btnExpandSummaries" style="display:none">Expand all summaries</button>
+    
     <table style="width:100%;" class="comparisonTable"  cellspacing="0" cellpadding="0">
         <tr style="background-color:white">
-            <td>&nbsp;</td>
+            <td>visit website</td>
             <td class="auto-style6"><a href="http://yessera.org" target="_blank">YESSERA</a></td>
+            <td class="auto-style6"><a href="http://www.partnersincareers.org/">PIC</a></td>
             <td class="auto-style6"><a href="http://wegene.org/" target="_blank" title="Go to wegene.org">Wegene</a></td>
             <td class="auto-style6"><a href="http://ppl-inc.org" target="_blank" title="Go to ppl-inc.org">Project for Pride in Living</a></td> 
         </tr>
@@ -30,7 +41,9 @@
             <td>
                 &nbsp;</td>
             <td class="auto-style6">
-                <a href="http://yessera.org" title="Go to Yessera.org"><img alt="YESSERA" border="0" class="auto-style1" src="http://rawgithub.com/BraveNewMath/siteComparisons/master/images/yessera.PNG" /></a></td>
+                <img class="auto-style8" src="images/yesseraLogo.png" /></td>
+            <td class="auto-style6">
+                <img class="auto-style9" src="images/epicLogo.jpg" /></td>
             <td class="auto-style6">
                 <a href="http://wegene.org/" target="_blank" title="Go to wegene.org">
                 <img alt="" src="images/wegene_logo.gif" style="border-width: 0px" /></a></td>
@@ -38,21 +51,42 @@
                 <a href="http://www.ppl-inc.org" title="Go to ppl-ing.org">
                 <img alt="" src="http://rawgithub.com/BraveNewMath/siteComparisons/master/images/pplLogoSmall.png" style="border-width: 0px" /></a></td>
         </tr>
-        <tr id="overviewRow">
+        <tr id="overviewRow" contentdiv="">
             <td>
                 <h2>Overview</h2>
             </td>
             <td class="auto-style6">
-                <a href="#">view...
-            </a>
+                click to toggle...
+                <div>Yessera is a non-governmental, non-profit organization registered and based in the United States and Ethiopia.  Yessera was founded in 2001, by a small group of Ethiopians that believed that even small pecuniary investments can be the impetus for transformative changes.</div>
             </td>
-            <td class="auto-style6"><a href="#">view...</a></td>
-            <td class="auto-style6"><a href="#">view...</a></td>
+            <td class="auto-style6">click to toggle...<div>
+
+                <span style="font-size: 11.0pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; background: white; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">Partners in Careers (PIC) is<span style="color:white"> </span>a non-governmental, non-profit organization<span style="mso-spacerun:yes">&nbsp; </span>registered and based in the United States.<span style="mso-spacerun:yes">&nbsp; </span>PIC assists individuals in becoming economically self-sufficient.<span style="mso-spacerun:yes">&nbsp; </span>This is accomplished through the use of<span style="mso-spacerun:yes">&nbsp; </span>job training,<span style="mso-spacerun:yes">&nbsp; </span>support services, and job placement.</span></div>
+
+            </td>
+            <td class="auto-style6">click to toggle...
+                <div>
+
+                </div>
+
+            </td>
+            <td class="auto-style6">click to toggle...<div>
+
+                <span style="font-size:11.0pt;line-height:115%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:Calibri;
+mso-fareast-theme-font:minor-latin;color:#333333;mso-ansi-language:EN-US;
+mso-fareast-language:EN-US;mso-bidi-language:AR-SA">Project for Pride in Living, Inc. (PPL) is a non-governmental, non-profit organization<span style="mso-spacerun:yes">&nbsp; </span>registered and based in the United States.<span style="mso-spacerun:yes">&nbsp; </span>PPL was founded in 1972 and is dedicated to empowering low-income people to become self-reliant through integrated<span style="mso-spacerun:yes">&nbsp; </span>multi-dimensional assistance services. </span>
+
+                </div>
+
+            </td>
         </tr>
         <tr>
             <td>
-                <h2>Ease of use</h2>
+                <h2>Overall Rating</h2>
             </td>
+            <td class="auto-style6">
+                <img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-half.png" /><img alt="" class="auto-style2" src="images/star-0.png" /></td>
             <td class="auto-style6">
                 <img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-1.png" /><img alt="" class="auto-style2" src="images/star-half.png" /><img alt="" class="auto-style2" src="images/star-0.png" /></td>
             <td class="auto-style6">
@@ -62,8 +96,22 @@
         </tr>
         <tr>
             <td>
+                <h2>Ease of use</h2>
+            </td>
+            <td class="auto-style6">
+                &nbsp;</td>
+            <td class="auto-style6">
+                &nbsp;</td>
+            <td class="auto-style6">
+                &nbsp;</td>
+            <td class="auto-style6">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td>
                 <h2>Completeness of topic coverage</h2>
             </td>
+            <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
@@ -71,6 +119,8 @@
         <tr>
             <td>
                 Frequency of news updates</td>
+            <td class="auto-style6">
+                &nbsp;</td>
             <td class="auto-style6">
                 &nbsp;</td>
             <td class="auto-style6">
@@ -87,6 +137,8 @@
                 &nbsp;</td>
             <td class="auto-style6">
                 &nbsp;</td>
+            <td class="auto-style6">
+                &nbsp;</td>
         </tr>
         <tr>
             <td>
@@ -95,10 +147,12 @@
                 &nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
+            <td class="auto-style6">&nbsp;</td>
         </tr>
         <tr>
             <td>
                 Sharing information about future project</td>
+            <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
@@ -109,6 +163,7 @@
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
+            <td class="auto-style6">&nbsp;</td>
         </tr>
         <tr>
             <td>
@@ -116,21 +171,35 @@
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
+            <td class="auto-style6">&nbsp;</td>
         </tr>
-        <tr contentdiv="tagline">
+        <tr contentdiv>
             <td>
                 Catchy tag line</td>
             <td class="auto-style6">
-                <img class="auto-style5" src="images/no.png" /></td>
+                <img class="auto-style5" src="images/no.png" />
+                <div>
+
+                    Does not have a tag line.&nbsp; Although it uses the expanded version of its acronym as the tag line:&nbsp; YESSERA means Young Ethioipians Self-Sufficiency Enhancing Re-education Association.&nbsp; We feel that this is a belabored way to deliver a tag line.&nbsp; We believe the tag line is an opportunity to make the elevator pitch, and YESSERA is letting that opportunity pass by.</div>
+
+            </td>
             <td class="auto-style6">
-                <img class="auto-style5" src="images/yes.png" /></td>
+                &nbsp;</td>
             <td class="auto-style6">
-                <img class="auto-style5" src="images/yes.png" /></td>
+                <img class="auto-style5" src="images/yes.png" /><div>
+                    Wegene&#39;s tag line is &quot;Rebuilding families one child at a time&quot;.&nbsp; It is prominently displayed on the site.</div>
+            </td>
+            <td class="auto-style6">
+                <img class="auto-style5" src="images/yes.png" /><div>
+                    Project for Pride in Living's tag line is "Helping people help themselves."  It is also Which captures the goal of the organization more fully than the previous two.
+                </div>
+            </td>
         </tr>
         <tr>
             <td>
                 <h2>Use of web enhancements</h2>
             </td>
+            <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
@@ -141,10 +210,12 @@
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
+            <td class="auto-style6">&nbsp;</td>
         </tr>
         <tr>
             <td>
                 Sound</td>
+            <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
@@ -155,10 +226,12 @@
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
+            <td class="auto-style6">&nbsp;</td>
         </tr>
         <tr>
             <td>
                 &nbsp;</td>
+            <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
@@ -170,10 +243,12 @@
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
+            <td class="auto-style6">&nbsp;</td>
         </tr>
         <tr>
             <td>
                 Facebook likes</td>
+            <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
@@ -184,10 +259,12 @@
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
+            <td class="auto-style6">&nbsp;</td>
         </tr>
         <tr>
             <td>
                 &nbsp;</td>
+            <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
@@ -196,6 +273,7 @@
             <td>
                 <h2>Usefulness of Related Links</h2>
             </td>
+            <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
@@ -220,7 +298,7 @@
                 <td>Wegene</td>
                 <td>
                 <img class="auto-style5" src="images/yes.png" /></td>
-                <td>Wegene&#39;s tag line is &quot;Rebuilding families one child at a time&quot;.&nbsp; It is prominently displayed on the site.</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td>PPL</td>
