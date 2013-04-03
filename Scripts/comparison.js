@@ -38,9 +38,9 @@ var c = {
             $('.comparisonTable tr[contentdiv]').click(function (e) {
 
                 //assign title header using h3 tag, and if not present, use the title attibute of the div
-                var mytitle = $('#' + $(this).attr('contentdiv') + ' h3').hide().text();
-                if (!mytitle)
-                    mytitle = $('#' + $(this).attr('contentdiv')).attr('title');
+                //var mytitle = $('#' + $(this).attr('contentdiv') + ' h3').hide().text();
+                //if (!mytitle)
+                //    mytitle = $('#' + $(this).attr('contentdiv')).attr('title');
                 
                 $(this).find('td div').slideToggle('slow');
 

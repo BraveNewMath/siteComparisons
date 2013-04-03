@@ -1,14 +1,18 @@
-﻿.auto-style1 {
-            width: 104px;
-            height: 81px;
-        }
+﻿body {
+    background-image:url(http://www.partnersincareers.org/images/tile.jpg);
+    background-repeat:repeat-x;
+}
+.auto-style1 {
+    width: 104px;
+    height: 81px;
+ }
 
 table tr {
     vertical-align:top;
 }
 
 table td {
-width:25%
+    width:20%
 }
 
     table tr td div {
@@ -18,22 +22,36 @@ width:25%
 }
 .comparisonTable tr.clickableRow:hover{
     cursor:pointer; cursor: hand;
+    background-color:yellow !important;
 }
-        .comparisonTable tbody tr:hover {
-            background-color:yellow !important;
-        }
-        .auto-style2 {
-            width: 32px;
-            height: 32px;
-        }
-        .comparisonTable tbody tr.even {
-            background-color:whitesmoke
-        }
-        .comparisonTable tbody tr.odd {
+       
+.auto-style2 {
+    width: 32px;
+    height: 32px;
+}
+.comparisonTable tbody tr.even {
+    background-color:whitesmoke
+}
+.comparisonTable tbody tr.odd {
     background-color: #E3ECFD;
 }
-        .comparisonTable td {
+.comparisonTable td {
     border-right-style: solid;
     border-right-width: medium;
     border-right-color: #808000;
+}
+
+
+.comparisonTable h3 {
+    padding: 0 0 0 20px;
+    margin:0;
+    color: #003366;
+}
+
+
+button {
+display: block;
+ width: 175px;
+ height: 45px;
+ margin: 0px auto;
 }

@@ -120,7 +120,9 @@
     <Content Include="images\checkmark-x.gif" />
     <Content Include="images\checkMark.gif" />
     <Content Include="images\checkmark2-48x48.png" />
+    <Content Include="images\epicLogo.jpg" />
     <Content Include="images\imgres.jpg" />
+    <Content Include="images\nonProfitSolutions.jpg" />
     <Content Include="images\wegene_logo.gif" />
     <Content Include="images\no.png" />
     <Content Include="images\partial.png" />
@@ -131,6 +133,7 @@
     <Content Include="images\star-half.png" />
     <Content Include="images\yes.png" />
     <Content Include="images\yessera.PNG" />
+    <Content Include="images\yesseraLogo.png" />
     <Content Include="Scripts\comparison.js" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
